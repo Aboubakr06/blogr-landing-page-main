@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+:root {
+    --primary-red: hsl(0, 100%, 68%);
+
+    --neutral-blue:       hsl(230, 29%, 20%);
+    --neutral-dark-grey:  hsl(230, 11%, 40%);
+    --neutral-grey:       hsl(231, 7%, 65%);
+    --neutral-light-grey: hsl(207, 33%, 95%);
+}
+*/

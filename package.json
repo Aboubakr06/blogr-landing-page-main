@@ -1,0 +1,23 @@
+{
+  "name": "blogr-landing-page-main",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Project tracking intro component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aboubakr06/blogr-landing-page-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aboubakr06/blogr-landing-page-main/issues"
+  },
+  "homepage": "https://github.com/Aboubakr06/blogr-landing-page-main#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
