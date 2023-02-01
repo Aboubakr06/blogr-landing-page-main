@@ -31,9 +31,9 @@
     <div class="flex items-center justify-between mb-24">
       <div class="lg:flex lg:items-center lg:gap-16">
         <img src="images/logo.svg" alt="Logo">
-        <div class="max-lg:hidden">
-          <dl class="flex item-center gap-6">
-            <dt class="">Product</dt>
+        <div class="menu max-lg:hidden max-lg:absolute max-lg:rounded-xl max-lg:px-4 max-lg:py-8 max-lg:bg-[var(--neutral-white)] max-lg:top-28 max-lg:w-[80%] max-lg:left-[10%]">
+          <dl class="lg:flex lg:item-center grid gap-6">
+            <dt class="text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass">Product</dt>
             <dd class="hidden">
               <a class="" href="#">Overview</a>
               <a class="" href="#">Pricing</a>
@@ -42,7 +42,7 @@
               <a class="" href="#">Integrations</a>
             </dd>
 
-            <dt>Company</dt>
+            <dt class="text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass">Company</dt>
             <dd class="hidden">
               <a class="" href="#">About</a>
               <a class="" href="#">Team</a>
@@ -50,19 +50,24 @@
               <a class="" href="#">Careers</a>
             </dd>
 
-            <dt>Connect</dt>
+            <dt class="text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass">Connect</dt>
             <dd class="hidden">
               <a class="" href="#"> Contact</a>
               <a class="" href="#">Newsletter</a>
               <a class="" href="#">LinkedIn</a>
             </dd>
+            <span class="lg:hidden border-t border-solid border-[var(--neutral-grey)]"></span>
+            <div class="lg:hidden grid place-items-center gap-6">
+              <a class="text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass" href="#">Login</a>
+              <a class="text-xl font-semibold text-[var(--neutral-white)] font-Overpass bg-gradient-to-r from-[var(--gradient-cla-l)] to-[var(--gradient-cla-r)] rounded-full px-8 py-2 hover:from-[var(--primary-light-red)] hover:to-[var(--primary-light-red)]" href="#">Sign Up</a>
+            </div>
         </div>
       </div>
-      <div class="max-lg:hidden lg:flex lg:items-center lg:gap-6">
-        <a>Login</a>
-        <a>Sign Up</a>
+      <div class="max-lg:hidden lg:flex lg:items-center gap-6">
+        <a href="#">Login</a>
+        <a href="#">Sign Up</a>
       </div>
-      <a class="menu-btn lg:hidden"><img src="images/icon-hamburger.svg" alt="Menu open"></a>
+      <a class="menu-open lg:hidden"><img src="images/icon-hamburger.svg" alt="Menu open"></a>
       <a class="menu-close hidden lg:hidden"><img src="images/icon-close.svg" alt="Menu close"></a>
     </div>
     <h1 class="place-self-center text-3xl font-Overpass font-semibold text-[var(--neutral-white)] mb-4">A modern
