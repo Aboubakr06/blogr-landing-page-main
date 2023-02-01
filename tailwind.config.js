@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Barlow': ['Barlow', 'sans-serif'],
-        'Barlow-Condensed': ['Barlow Condensed', 'sans-serif']
+        'Overpass': ['Overpass', 'sans-serif'],
+        'Ubuntu': ['Ubuntu', 'sans-serif']
       },
     },
   },

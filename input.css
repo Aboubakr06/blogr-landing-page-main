@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-:root {
-    --primary-red: hsl(0, 100%, 68%);
 
-    --neutral-blue:       hsl(230, 29%, 20%);
-    --neutral-dark-grey:  hsl(230, 11%, 40%);
-    --neutral-grey:       hsl(231, 7%, 65%);
-    --neutral-light-grey: hsl(207, 33%, 95%);
+:root {
+    --primary-red:       hsl(356, 100%, 66%);
+    --primary-light-red: hsl(355, 100%, 74%);
+    --primary-headings-blue: hsl(208, 49%, 24%);
+    
+    --neutral-bg-blue:       hsl(240, 10%, 16%);
+    --neutral-dark-grey:  hsl(207, 13%, 34%);
+    --neutral-grey:       hsl(240, 2%, 79%);
+    --neutral-white: hsl(0, 0%, 100%);
+
+    --gradient-cla-l: hsl(13, 100%, 72%);
+    --gradient-cla-r: hsl(353, 100%, 62%);
+
+    --gradient-bg-l: hsl(237, 17%, 21%);
+    --gradient-bg-r: hsl(237, 23%, 32%);
 }
-*/

@@ -8,90 +8,178 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
   <title>Frontend Mentor | [Blogr]</title>
 
+  <!--<script src="https://cdn.tailwindcss.com"></script>-->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <main>
-    Product
+<body class="font-Ubuntu text-base text-center">
+  <header
+    class="grid px-8 pt-10 pb-28 bg-contain bg-gradient-to-r from-[var(--gradient-cla-l)] to-[var(--gradient-cla-r)] relative z-10 rounded-bl-[6em]">
+    <picture>
+      <source media="(min-width:64em)" srcset="images/bg-pattern-intro-desktop.svg">
+      <img class="absolute bottom-0 left-0 -z-10 w-full h-full" src="images/bg-pattern-intro-mobile.svg" alt=""
+        aria-hidden="true">
+    </picture>
+    <div class="flex items-center justify-between mb-24">
+      <div class="lg:flex lg:items-center lg:gap-16">
+        <img src="images/logo.svg" alt="Logo">
+        <div class="max-lg:hidden">
+          <dl class="flex item-center gap-6">
+            <dt class="">Product</dt>
+            <dd class="hidden">
+              <a class="" href="#">Overview</a>
+              <a class="" href="#">Pricing</a>
+              <a class="" href="#">Marketplace</a>
+              <a class="" href="#">Features</a>
+              <a class="" href="#">Integrations</a>
+            </dd>
 
-    Overview
-    Pricing
-    Marketplace
-    Features
-    Integrations
+            <dt>Company</dt>
+            <dd class="hidden">
+              <a class="" href="#">About</a>
+              <a class="" href="#">Team</a>
+              <a class="" href="#">Blog</a>
+              <a class="" href="#">Careers</a>
+            </dd>
 
-    Company
+            <dt>Connect</dt>
+            <dd class="hidden">
+              <a class="" href="#"> Contact</a>
+              <a class="" href="#">Newsletter</a>
+              <a class="" href="#">LinkedIn</a>
+            </dd>
+        </div>
+      </div>
+      <div class="max-lg:hidden lg:flex lg:items-center lg:gap-6">
+        <a>Login</a>
+        <a>Sign Up</a>
+      </div>
+      <a class="menu-btn lg:hidden"><img src="images/icon-hamburger.svg" alt="Menu open"></a>
+      <a class="menu-close hidden lg:hidden"><img src="images/icon-close.svg" alt="Menu close"></a>
+    </div>
+    <h1 class="place-self-center text-4xl font-Overpass font-semibold text-[var(--neutral-white)] mb-4">A modern
+      publishing
+      platform</h1>
+    <p class="text-[var(--neutral-white)] font-Overpass text-xl mb-8">Grow your audience and build your online brand</p>
+    <div class="flex items-center gap-4 place-self-center">
+      <a class="flex items-center justify-center bg-[var(--neutral-white)] font-bold border border-solid border-transparent px-4 py-2 rounded-full text-[var(--primary-red)] hover:text-[var(--neutral-white)] hover:bg-[var(--primary-light-red)]"
+        href="#">Start for Free</a>
+      <a class="flex items-center justify-center font-bold px-5 py-2 border border-solid border-white rounded-full text-[var(--neutral-white)] hover:text-[var(--primary-light-red)] hover:bg-[var(--neutral-white)]"
+        href="#">Learn More</a>
+    </div>
+  </header>
+  <main class="grid py-24">
+    <article>
+      <h2 class="font-Overpass text-3xl font-semibold text-[var(--primary-headings-blue)]">Designed for the future</h2>
 
-    About
-    Team
-    Blog
-    Careers
+      <section
+        class="grid bg-[var(--neutral-white)] relative z-10 place-items-center pt-12 pb-56 gap-12 font-Overpass text-[var(--neutral-dark-grey)] font-light text-lg">
+        <picture>
+          <source media="(min-width:64em)" srcset="images/illustration-editor-desktop.svg">
+          <img class="place-self-center" src="images/illustration-editor-mobile.svg" alt="" aria-hidden="true">
+        </picture>
+        <div class="grid px-6 gap-8">
 
-    Connect
+          <h3 class="text-3xl font-semibold text-[var(--primary-headings-blue)]">Introducing an extensible editor</h3>
 
-    Contact
-    Newsletter
-    LinkedIn
+          <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+            change the looks of a blog.</p>
 
-    Login
-    Sign Up
+          <h3 class="text-3xl font-semibold text-[var(--primary-headings-blue)] mt-4">Robust content management</h3>
 
-    A modern publishing platform
-    Grow your audience and build your online brand
+          <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+      </section>
 
-    Start for Free
-    Learn More
+      <section
+        class="grid relative place-items-center bg-gradient-to-r from-[var(--gradient-bg-l)] to-[var(--gradient-bg-r)] rounded-bl-[6em] rounded-tr-[6em] pt-40 pb-24 gap-12 font-Overpass text-[var(--neutral-white)] font-light text-lg">
+        <div class="grid">
+          <img class="absolute z-10 place-self-center -top-48" src="images/illustration-phones.svg" alt=""
+            aria-hidden="true">
+          <img class="absolute z-0 place-self-center -top-24" src="images/bg-pattern-circles.svg" alt=""
+            aria-hidden="true">
+        </div>
+        <div class="grid z-20 px-6 gap-8">
 
-    Designed for the future
+          <h3 class="text-3xl font-semibold">State of the Art Infrastructure</h3>
 
-    Introducing an extensible editor
-    Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
-    The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
-    videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
-    change the looks of a blog.
+          <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast
+            connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+          </p>
 
-    Robust content management
-    Flexible content management enables users to easily move through posts. Increase the usability of your blog
-    by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+        </div>
+      </section>
 
-    State of the Art Infrastructure
-    With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
-    This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+      <section
+        class="grid place-items-center py-12 gap-12 font-Overpass text-[var(--neutral-dark-grey)] font-light text-lg">
+        <picture>
+          <source media="(min-width:64em)" srcset="images/illustration-laptop-desktop.svg">
+          <img class="place-self-center" src="images/illustration-laptop-mobile.svg" alt="" aria-hidden="true">
+        </picture>
+        <div class="grid px-6 gap-8">
 
-    Free, open, simple
-    Blogr is a free and open source application backed by a large community of helpful developers. It supports
-    features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
-    and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+          <h3 class="text-3xl font-semibold text-[var(--primary-headings-blue)]">Free, open, simple</h3>
 
-    Powerful tooling
-    Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze,
-    but
-    capable of producing even the most complicated sites.
+          <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+            tools,
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
 
-    Product
+          <h3 class="text-3xl font-semibold text-[var(--primary-headings-blue)] mt-4">Powerful tooling</h3>
 
-    Overview
-    Pricing
-    Marketplace
-    Features
-    Integrations
-
-    Company
-
-    About
-    Team
-    Blog
-    Careers
-
-    Connect
-
-    Contact
-    Newsletter
-    LinkedIn
+          <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment
+            a
+            breeze, but capable of producing even the most complicated sites.
+          </p>
+        </div>
+      </section>
+    </article>
   </main>
+  <footer class="grid gap-8 place-items-center bg-[var(--neutral-bg-blue)] text-[var(--neutral-grey)] py-16 px-4 rounded-tr-[6em]">
+    <img src="images/logo.svg" alt="Logo">
+    <div class="grid gap-8">
+      <div class="grid gap-2">
+        <p class="text-[var(--neutral-white)] text-xl mb-2">Product</p>
+
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">Overview</a>
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">Pricing</a>
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">Marketplace</a>
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">Features</a>
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">Integrations</a>
+      </div>
+
+      <div class="grid gap-2">
+        <p class="text-[var(--neutral-white)] text-xl mb-2">Company</p>
+
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">About</a>
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">Team</a>
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">Blog</a>
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">Careers</a>
+      </div>
+
+      <div class="grid gap-2">
+        <p class="text-[var(--neutral-white)] text-xl mb-2">Connect</p>
+
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">Contact</a>
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">Newsletter</a>
+        <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">LinkedIn</a>
+
+      </div>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 
