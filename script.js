@@ -14,3 +14,24 @@ MenuOp.addEventListener('click', function(){
     MenuEl.classList.add('max-lg:hidden');
     MenuOp.classList.remove('hidden');
 });
+
+const questions = document.querySelectorAll("dt");
+const answers = document.querySelectorAll("dd");
+const arrows = document.querySelectorAll(".arrow");
+
+questions.forEach((question, index) => {
+  question.addEventListener("click", () => {
+
+      answers.forEach((answer) => {
+        answer.classList.add("hidden");
+        answer.classList.remove("grid");  
+      });
+      answers[index].classList.remove("hidden");
+      answers[index].classList.add("grid");
+
+    arrows.forEach((arrow) => {
+      arrow.classList.remove("active"); 
+    });
+    arrows[index].classList.toggle("active");
+  });
+});

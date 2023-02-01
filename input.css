@@ -11,6 +11,7 @@
     --neutral-bg-blue:       hsl(240, 10%, 16%);
     --neutral-dark-grey:  hsl(207, 13%, 34%);
     --neutral-grey:       hsl(240, 2%, 79%);
+    --neutral-light-grey:       hsl(240, 2%, 95%);
     --neutral-white: hsl(0, 0%, 100%);
 
     --gradient-cla-l: hsl(13, 100%, 72%);
@@ -18,4 +19,9 @@
 
     --gradient-bg-l: hsl(237, 17%, 21%);
     --gradient-bg-r: hsl(237, 23%, 32%);
+}
+
+.active {
+    transform: rotate(180deg);
+    transition: ease-out 0.5s;
 }

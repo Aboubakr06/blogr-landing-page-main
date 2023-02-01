@@ -31,35 +31,58 @@
     <div class="flex items-center justify-between mb-24">
       <div class="lg:flex lg:items-center lg:gap-16">
         <img src="images/logo.svg" alt="Logo">
-        <div class="menu max-lg:hidden max-lg:absolute max-lg:rounded-xl max-lg:px-4 max-lg:py-8 max-lg:bg-[var(--neutral-white)] max-lg:top-28 max-lg:w-[80%] max-lg:left-[10%]">
+        <div
+          class="menu max-lg:hidden max-lg:absolute max-lg:rounded-xl max-lg:px-4 max-lg:py-8 max-lg:bg-[var(--neutral-white)] max-lg:top-28 max-lg:w-[80%] max-lg:left-[10%]">
           <dl class="lg:flex lg:item-center grid gap-6">
-            <dt class="text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass">Product</dt>
-            <dd class="hidden">
-              <a class="" href="#">Overview</a>
-              <a class="" href="#">Pricing</a>
-              <a class="" href="#">Marketplace</a>
-              <a class="" href="#">Features</a>
-              <a class="" href="#">Integrations</a>
+            <dt
+              class="flex items-center justify-center gap-2 text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass lg:text-base lg:text-[var(--neutral-white)] lg:opacity-80 hover:opacity-100 cursor-pointer hover:underline decoration-2 underline-offset-4">
+              Product
+              <picture>
+                <source media="(min-width:64em)" srcset="images/icon-arrow-light.svg">
+                <img class="arrow ease-in duration-500" src="images/icon-arrow-dark.svg" alt="" aria-hidden="true">
+              </picture>
+            </dt>
+            <dd class="hidden gap-2 p-4 bg-[var(--neutral-light-grey)] rounded-xl">
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Overview</a>
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Pricing</a>
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Marketplace</a>
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Features</a>
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Integrations</a>
             </dd>
 
-            <dt class="text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass">Company</dt>
-            <dd class="hidden">
-              <a class="" href="#">About</a>
-              <a class="" href="#">Team</a>
-              <a class="" href="#">Blog</a>
-              <a class="" href="#">Careers</a>
+            <dt
+              class="flex items-center justify-center gap-2 text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass lg:text-base lg:text-[var(--neutral-white)] lg:opacity-80 hover:opacity-100 cursor-pointer hover:underline decoration-2 underline-offset-4">
+              Company
+              <picture>
+                <source media="(min-width:64em)" srcset="images/icon-arrow-light.svg">
+                <img class="arrow ease-in duration-500" src="images/icon-arrow-dark.svg" alt="" aria-hidden="true">
+              </picture>
+            </dt>
+            <dd class="hidden gap-2 p-4 bg-[var(--neutral-light-grey)] rounded-xl">
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">About</a>
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Team</a>
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Blog</a>
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Careers</a>
             </dd>
 
-            <dt class="text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass">Connect</dt>
-            <dd class="hidden">
-              <a class="" href="#"> Contact</a>
-              <a class="" href="#">Newsletter</a>
-              <a class="" href="#">LinkedIn</a>
+            <dt
+              class="flex items-center justify-center gap-2 text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass lg:text-base lg:text-[var(--neutral-white)] lg:opacity-80 hover:opacity-100 cursor-pointer hover:underline decoration-2 underline-offset-4">
+              Connect
+              <picture>
+                <source media="(min-width:64em)" srcset="images/icon-arrow-light.svg">
+                <img class="arrow ease-in duration-500" src="images/icon-arrow-dark.svg" alt="" aria-hidden="true">
+              </picture>
+            </dt>
+            <dd class="hidden gap-2 p-4 bg-[var(--neutral-light-grey)] rounded-xl">
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#"> Contact</a>
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Newsletter</a>
+              <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">LinkedIn</a>
             </dd>
             <span class="lg:hidden border-t border-solid border-[var(--neutral-grey)]"></span>
-            <div class="lg:hidden grid place-items-center gap-6">
+            <div class="lg:hidden grid place-items-center gap-4">
               <a class="text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass" href="#">Login</a>
-              <a class="text-xl font-semibold text-[var(--neutral-white)] font-Overpass bg-gradient-to-r from-[var(--gradient-cla-l)] to-[var(--gradient-cla-r)] rounded-full px-8 py-2 hover:from-[var(--primary-light-red)] hover:to-[var(--primary-light-red)]" href="#">Sign Up</a>
+              <a class="text-xl font-semibold text-[var(--neutral-white)] font-Overpass bg-gradient-to-r from-[var(--gradient-cla-l)] to-[var(--gradient-cla-r)] rounded-full px-8 py-2 hover:from-[var(--primary-light-red)] hover:to-[var(--primary-light-red)]"
+                href="#">Sign Up</a>
             </div>
         </div>
       </div>
@@ -153,7 +176,8 @@
       </section>
     </article>
   </main>
-  <footer class="grid gap-8 place-items-center bg-[var(--neutral-bg-blue)] text-[var(--neutral-grey)] py-16 px-4 rounded-tr-[6em]">
+  <footer
+    class="grid gap-8 place-items-center bg-[var(--neutral-bg-blue)] text-[var(--neutral-grey)] py-16 px-4 rounded-tr-[6em]">
     <img src="images/logo.svg" alt="Logo">
     <div class="grid gap-8">
       <div class="grid gap-2">
