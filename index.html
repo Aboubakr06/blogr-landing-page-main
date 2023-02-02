@@ -16,33 +16,33 @@
 
   <title>Frontend Mentor | [Blogr]</title>
 
-  <!--<script src="https://cdn.tailwindcss.com"></script>-->
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="font-Ubuntu text-base text-center">
   <header
-    class="grid px-6 pt-10 pb-28 bg-contain bg-gradient-to-r from-[var(--gradient-cla-l)] to-[var(--gradient-cla-r)] relative z-10 rounded-bl-[6em]">
+    class="grid px-6 pt-10 pb-32 bg-contain bg-gradient-to-r from-[var(--gradient-cla-l)] to-[var(--gradient-cla-r)] relative z-10 rounded-bl-[6em] lg:px-36 lg:pt-16">
     <picture>
       <source media="(min-width:64em)" srcset="images/bg-pattern-intro-desktop.svg">
       <img class="absolute bottom-0 left-0 -z-10 w-full h-full" src="images/bg-pattern-intro-mobile.svg" alt=""
         aria-hidden="true">
     </picture>
-    <div class="flex items-center justify-between mb-24">
+    <div class="flex items-center justify-between mb-28">
       <div class="lg:flex lg:items-center lg:gap-16">
         <img src="images/logo.svg" alt="Logo">
         <div
-          class="menu max-lg:hidden max-lg:absolute max-lg:rounded-xl max-lg:px-4 max-lg:py-8 max-lg:bg-[var(--neutral-white)] max-lg:top-28 max-lg:w-[80%] max-lg:left-[10%]">
+          class="menu max-lg:hidden max-lg:absolute max-lg:rounded-xl max-lg:px-4 max-lg:py-8 max-lg:bg-[var(--neutral-white)] max-lg:top-28 max-lg:w-[80%] max-lg:left-[10%]  lg:relative">
           <dl class="lg:flex lg:item-center grid gap-6">
             <dt
-              class="flex items-center justify-center gap-2 text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass lg:text-base lg:text-[var(--neutral-white)] lg:opacity-80 hover:opacity-100 cursor-pointer hover:underline decoration-2 underline-offset-4">
+              class="flex items-center justify-center gap-2 text-xl font-semibold text-[var(--primary-headings-blue)] max-lg:font-Overpass lg:text-base lg:text-[var(--neutral-white)] lg:opacity-80 hover:opacity-100 cursor-pointer hover:underline decoration-2 underline-offset-4">
               Product
               <picture>
                 <source media="(min-width:64em)" srcset="images/icon-arrow-light.svg">
                 <img class="arrow ease-in duration-500" src="images/icon-arrow-dark.svg" alt="" aria-hidden="true">
               </picture>
             </dt>
-            <dd class="hidden gap-2 p-4 bg-[var(--neutral-light-grey)] rounded-xl">
+            <dd class="hidden gap-2 p-4 bg-[var(--neutral-light-grey)] rounded-xl lg:absolute lg:top-10 lg:-left-9 lg:text-start lg:pr-12">
               <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Overview</a>
               <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Pricing</a>
               <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Marketplace</a>
@@ -51,14 +51,14 @@
             </dd>
 
             <dt
-              class="flex items-center justify-center gap-2 text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass lg:text-base lg:text-[var(--neutral-white)] lg:opacity-80 hover:opacity-100 cursor-pointer hover:underline decoration-2 underline-offset-4">
+              class="flex items-center justify-center gap-2 text-xl font-semibold text-[var(--primary-headings-blue)] max-lg:font-Overpass lg:text-base lg:text-[var(--neutral-white)] lg:opacity-80 hover:opacity-100 cursor-pointer hover:underline decoration-2 underline-offset-4">
               Company
               <picture>
                 <source media="(min-width:64em)" srcset="images/icon-arrow-light.svg">
                 <img class="arrow ease-in duration-500" src="images/icon-arrow-dark.svg" alt="" aria-hidden="true">
               </picture>
             </dt>
-            <dd class="hidden gap-2 p-4 bg-[var(--neutral-light-grey)] rounded-xl">
+            <dd class="hidden gap-2 p-4 bg-[var(--neutral-light-grey)] rounded-xl lg:absolute lg:top-10 lg:left-24 lg:text-start lg:pr-12">
               <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">About</a>
               <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Team</a>
               <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Blog</a>
@@ -66,14 +66,14 @@
             </dd>
 
             <dt
-              class="flex items-center justify-center gap-2 text-xl font-semibold text-[var(--primary-headings-blue)] font-Overpass lg:text-base lg:text-[var(--neutral-white)] lg:opacity-80 hover:opacity-100 cursor-pointer hover:underline decoration-2 underline-offset-4">
+              class="flex items-center justify-center gap-2 text-xl font-semibold text-[var(--primary-headings-blue)] max-lg:font-Overpass lg:text-base lg:text-[var(--neutral-white)] lg:opacity-80 hover:opacity-100 cursor-pointer hover:underline decoration-2 underline-offset-4">
               Connect
               <picture>
                 <source media="(min-width:64em)" srcset="images/icon-arrow-light.svg">
                 <img class="arrow ease-in duration-500" src="images/icon-arrow-dark.svg" alt="" aria-hidden="true">
               </picture>
             </dt>
-            <dd class="hidden gap-2 p-4 bg-[var(--neutral-light-grey)] rounded-xl">
+            <dd class="hidden gap-2 p-4 bg-[var(--neutral-light-grey)] rounded-xl lg:absolute lg:top-10 lg:left-48 lg:text-start lg:pr-12">
               <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#"> Contact</a>
               <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">Newsletter</a>
               <a class="text-lg text-[var(--neutral-dark-grey)] font-medium hover:font-bold" href="#">LinkedIn</a>
@@ -86,14 +86,14 @@
             </div>
         </div>
       </div>
-      <div class="max-lg:hidden lg:flex lg:items-center gap-6">
-        <a href="#">Login</a>
-        <a href="#">Sign Up</a>
+      <div class="max-lg:hidden lg:flex lg:items-center gap-8">
+        <a class="font-bold text-lg text-[var(--neutral-white)] opacity-80 hover:opacity-100 hover:underline decoration-2 underline-offset-4" href="#">Login</a>
+        <a class="text-lg font-semibold text-[var(--primary-red)] bg-[var(--neutral-white)] rounded-full px-8 py-2 hover:bg-[var(--primary-light-red)] hover:text-[var(--neutral-white)]" href="#">Sign Up</a>
       </div>
       <a class="menu-open lg:hidden"><img src="images/icon-hamburger.svg" alt="Menu open"></a>
       <a class="menu-close hidden lg:hidden"><img src="images/icon-close.svg" alt="Menu close"></a>
     </div>
-    <h1 class="place-self-center text-3xl font-Overpass font-semibold text-[var(--neutral-white)] mb-4">A modern
+    <h1 class="place-self-center text-3xl font-Overpass font-semibold text-[var(--neutral-white)] mb-8 lg:text-6xl">A modern
       publishing
       platform</h1>
     <p class="text-[var(--neutral-white)] font-Overpass text-xl mb-8">Grow your audience and build your online brand</p>
@@ -104,17 +104,17 @@
         href="#">Learn More</a>
     </div>
   </header>
-  <main class="grid py-24">
+  <main class="grid py-36 lg:overflow-hidden">
     <article>
-      <h2 class="font-Overpass text-3xl font-semibold text-[var(--primary-headings-blue)]">Designed for the future</h2>
+      <h2 class="font-Overpass text-3xl font-semibold text-[var(--primary-headings-blue)] lg:text-4xl">Designed for the future</h2>
 
       <section
-        class="grid bg-[var(--neutral-white)] relative z-10 place-items-center pt-12 pb-56 gap-12 font-Overpass text-[var(--neutral-dark-grey)] font-light text-lg">
+        class="grid bg-[var(--neutral-white)] relative z-10 place-items-center pt-12 pb-56 gap-12 font-Overpass text-[var(--neutral-dark-grey)] font-light text-lg lg:pt-28 lg:pb-64 lg:text-start lg:grid-cols-3">
         <picture>
           <source media="(min-width:64em)" srcset="images/illustration-editor-desktop.svg">
-          <img class="place-self-center" src="images/illustration-editor-mobile.svg" alt="" aria-hidden="true">
+          <img class="place-self-center lg:absolute lg:-top-28 lg:-right-80" src="images/illustration-editor-mobile.svg" alt="" aria-hidden="true">
         </picture>
-        <div class="grid px-6 gap-8">
+        <div class="grid px-6 gap-8 lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:pl-36 lg:pr-44">
 
           <h3 class="text-3xl font-semibold text-[var(--primary-headings-blue)]">Introducing an extensible editor</h3>
 
@@ -132,18 +132,18 @@
       </section>
 
       <section
-        class="grid relative place-items-center bg-gradient-to-r from-[var(--gradient-bg-l)] to-[var(--gradient-bg-r)] rounded-bl-[6em] rounded-tr-[6em] pt-40 pb-24 gap-12 font-Overpass text-[var(--neutral-white)] font-light text-lg">
+        class="grid relative place-items-center bg-gradient-to-r from-[var(--gradient-bg-l)] to-[var(--gradient-bg-r)] rounded-bl-[6em] rounded-tr-[6em] pt-40 pb-24 gap-12 font-Overpass text-[var(--neutral-white)] font-light text-lg lg:text-start lg:grid-cols-2 lg:py-24">
         <div class="grid">
-          <img class="absolute z-10 place-self-center -top-48" src="images/illustration-phones.svg" alt=""
+          <img class="absolute z-20 place-self-center -top-48 lg:-top-24 lg:left-32" src="images/illustration-phones.svg" alt=""
             aria-hidden="true">
-          <img class="absolute z-0 place-self-center -top-24" src="images/bg-pattern-circles.svg" alt=""
+          <img class="absolute z-0 place-self-center -top-24 lg:-top-[34rem] lg:-left-60" src="images/bg-pattern-circles.svg" alt=""
             aria-hidden="true">
         </div>
-        <div class="grid z-20 px-6 gap-8">
+        <div class="grid z-20 px-6 gap-8 lg:pr-44">
 
           <h3 class="text-3xl font-semibold">State of the Art Infrastructure</h3>
 
-          <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast
+          <p class="lg:text-sm">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast
             connectivity.
             This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
           </p>
@@ -152,12 +152,12 @@
       </section>
 
       <section
-        class="grid place-items-center py-12 gap-12 font-Overpass text-[var(--neutral-dark-grey)] font-light text-lg">
+        class="grid bg-[var(--neutral-white)] relative z-10 place-items-center py-12 gap-12 font-Overpass text-[var(--neutral-dark-grey)] font-light text-lg lg:text-start lg:grid-cols-3 lg:py-60">
         <picture>
           <source media="(min-width:64em)" srcset="images/illustration-laptop-desktop.svg">
-          <img class="place-self-center" src="images/illustration-laptop-mobile.svg" alt="" aria-hidden="true">
+          <img class="place-self-center lg:absolute lg:-left-[18rem] lg:top-24" src="images/illustration-laptop-mobile.svg" alt="" aria-hidden="true">
         </picture>
-        <div class="grid px-6 gap-8">
+        <div class="grid px-6 gap-8 lg:pl-52 lg:pr-40 lg:col-start-2 lg:col-end-4">
 
           <h3 class="text-3xl font-semibold text-[var(--primary-headings-blue)]">Free, open, simple</h3>
 
@@ -177,9 +177,8 @@
     </article>
   </main>
   <footer
-    class="grid gap-8 place-items-center bg-[var(--neutral-bg-blue)] text-[var(--neutral-grey)] py-16 px-4 rounded-tr-[6em]">
+    class="grid gap-8 place-items-center bg-[var(--neutral-bg-blue)] text-[var(--neutral-grey)] py-16 px-4 rounded-tr-[6em] lg:pl-40 lg:pr-64 lg:flex lg:items-start lg:justify-between lg:text-start">
     <img src="images/logo.svg" alt="Logo">
-    <div class="grid gap-8">
       <div class="grid gap-2">
         <p class="text-[var(--neutral-white)] text-xl mb-2">Product</p>
 
@@ -207,7 +206,6 @@
         <a class="text-lg hover:underline decoration-1 underline-offset-4" href="#">LinkedIn</a>
 
       </div>
-    </div>
   </footer>
   <script src="script.js"></script>
 </body>
