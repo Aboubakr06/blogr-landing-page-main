@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions)
+- Solution URL: (https://www.frontendmentor.io/solutions/blogr-landing-page-with-tailwindcss-G_Gb3za-Bx)
 - Live Site URL: (https://spontaneous-tulumba-28505a.netlify.app/)
 
 ## My process
