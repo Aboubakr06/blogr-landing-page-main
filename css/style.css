@@ -894,6 +894,10 @@ video {
   transition: ease-out 0.5s;
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:bg-\[var\(--primary-light-red\)\]:hover {
   background-color: var(--primary-light-red);
 }

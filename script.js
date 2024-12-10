@@ -21,20 +21,21 @@ const arrows = document.querySelectorAll(".arrow");
 
 questions.forEach((question, index) => {
   question.addEventListener("click", () => {
+    const isCurrentlyOpen = answers[index].classList.contains("hidden");
 
     answers.forEach((answer) => {
       answer.classList.add("hidden");
       answer.classList.remove("grid");
     });
     
-    answers[index].classList.remove("hidden");
-    answers[index].classList.add("grid");
-
     arrows.forEach((arrow) => {
       arrow.classList.remove("active");
     });
 
-      arrows[index].classList.toggle("active");
-    
+    if(isCurrentlyOpen) {
+      answers[index].classList.remove("hidden");
+      answers[index].classList.add("grid");
+      arrows[index].classList.add("active");
+    } 
   });
 });
